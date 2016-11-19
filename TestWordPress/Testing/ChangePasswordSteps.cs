@@ -19,6 +19,7 @@ namespace TestWordPress.Testing
         public void WhenFromTheLeftPanelISelectSecurity()
         {
             Click(profilepageObject.SecurityTab);
+            //test git
         }
         [When(@"I Enter new password")]
         public void WhenIEnterYourNewPassword()
