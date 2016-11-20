@@ -24,8 +24,8 @@ namespace TestWordPress.Testing
         [When(@"I Enter new password")]
         public void WhenIEnterYourNewPassword()
         {
-            //testgit 2
-            newPassword = Helper.GetRandomString(6, 13);
+            //testgit pr
+            newPassword = Helper.GetRandomString(16, 13);
             SendKey(profilepageObject.NewPasswordText, newPassword);
 
         }
